@@ -10,3 +10,147 @@
 @media(max-width:900px){.primary-nav{gap:19px}.hero-grid{grid-template-columns:1fr .8fr;gap:10px}.hero-art{transform:scale(.88)}.values-inner{grid-template-columns:1fr;gap:35px}.value-grid{max-width:700px}.contact-panel{padding:40px}.contact-decoration{right:10%}}
 @media(max-width:700px){.container{width:min(100% - 36px,var(--max))}.site-header{height:70px}.brand-mark{width:38px;height:38px}.brand-copy strong{font-size:15px}.menu-toggle{display:flex;flex-direction:column;gap:5px;border:0;background:transparent;padding:10px;cursor:pointer}.menu-toggle span{width:23px;height:2px;background:var(--navy);display:block}.primary-nav{display:none;position:absolute;top:69px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);padding:14px 22px 22px;box-shadow:0 14px 25px rgba(15,35,64,.08);align-items:stretch;gap:0;flex-direction:column}.primary-nav.open{display:flex}.primary-nav a{padding:12px 4px}.primary-nav .nav-contact{margin-top:8px;text-align:center;padding:11px}.hero{min-height:auto}.hero-grid{grid-template-columns:1fr;padding-block:68px 45px}.hero h1{font-size:clamp(34px,9vw,48px)}.hero-desc{font-size:13px}.hero-art{height:280px;transform:scale(.82);margin-top:5px}.hero-footnote{margin-top:30px}.section{padding:70px 0}.intro-grid{grid-template-columns:1fr;gap:25px}.section-heading{align-items:start;flex-direction:column;gap:15px;margin-bottom:28px}.business-grid{grid-template-columns:1fr;gap:12px}.business-card{min-height:auto;padding:25px}.business-icon{margin-bottom:17px}.business-card p{margin-bottom:17px}.service-item{gap:14px;padding:19px 0}.service-symbol{width:50px;height:50px;flex-basis:50px;font-size:22px}.service-text h3{font-size:15px}.service-text p{font-size:11px;line-height:1.7}.service-arrow{padding:0 2px}.values-heading h2{font-size:29px}.value-grid{grid-template-columns:repeat(2,1fr)}.value-item{padding:20px 8px}.contact{padding:58px 0}.contact-panel{padding:30px 23px;align-items:flex-start;flex-direction:column}.contact-panel h2{font-size:25px}.contact-actions{margin-top:6px}.contact-decoration{right:-12px;bottom:-60px;font-size:150px}.footer-top{align-items:flex-start;gap:20px;flex-direction:column}.footer-slogan{text-align:left}.footer-bottom{flex-direction:column;gap:6px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Brand correction: use the supplied original Happy Nuri logo artwork, not a CSS imitation. */
+.brand-original{display:inline-flex;align-items:center;flex:0 0 auto;gap:0}.brand-original img{display:block;width:186px;height:auto;max-height:64px;object-fit:contain;object-position:left center}.hero-logo-card{height:auto;min-height:0;transform:none!important;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 20px;background:#fff;border:1px solid rgba(212,175,55,.4);border-radius:3px;box-shadow:0 22px 65px rgba(0,0,0,.2)}.hero-logo-card img{display:block;width:100%;max-width:460px;height:auto;object-fit:contain}.hero-logo-card p{font-size:9px;letter-spacing:.2em;color:#53647d;margin:8px 0 0;text-align:center}
+.site-footer{padding:46px 0 20px;background:#08152c;color:#eaf0f7}.footer-main{display:grid;grid-template-columns:1.35fr .7fr .95fr 1fr;gap:36px;padding-bottom:34px}.footer-brand-column .brand-original img{width:210px;max-height:125px;border-radius:2px}.footer-brand-desc{font-size:12px;line-height:1.9;color:#aab8cb;max-width:280px;margin:16px 0 10px}.footer-slogan{text-align:left;font-size:12px;line-height:1.9;color:#e2e9f2;margin:0}.footer-slogan span{font-size:10px;color:#9aabc1}.footer-column{display:flex;flex-direction:column;align-items:flex-start;gap:10px}.footer-column h2{font-size:13px;color:#fff;margin:3px 0 7px;padding-bottom:9px;border-bottom:1px solid rgba(212,175,55,.55);width:100%}.footer-column>a,.footer-column p,.footer-column p a{font-size:11px;color:#aebbd0;margin:0;line-height:1.7}.footer-column a:hover{color:#65d7eb}.footer-contact p{display:flex;flex-direction:column;gap:2px;margin-bottom:4px}.footer-contact p span{font-size:10px;color:#7189a7}.footer-service-strip{display:flex;align-items:center;gap:26px;padding:16px 0;border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12)}.footer-service-strip>span{font-size:9px;letter-spacing:.15em;color:#d5b957;margin-right:auto}.footer-service-strip>a{font-size:11px;color:#e5edf7}.footer-service-strip small{font-size:9px;color:#8ea1bb;margin-left:5px}.footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-top:18px;color:#788ba6;font-size:10px}.footer-bottom a{color:#9aabc1}.footer-bottom a:hover{color:#fff}
+@media(max-width:900px){.footer-main{grid-template-columns:1fr 1fr;gap:28px}.footer-brand-column{grid-column:1/-1}.footer-brand-column .brand-original img{width:190px}}
+@media(max-width:700px){.brand-original img{width:150px;max-height:56px}.hero-logo-card{padding:18px 12px;margin:0 8px}.hero-logo-card p{font-size:8px;letter-spacing:.12em}.footer-main{grid-template-columns:1fr 1fr;gap:26px 18px}.footer-brand-column{grid-column:1/-1}.footer-brand-column .brand-original img{width:180px}.footer-service-strip{align-items:flex-start;flex-wrap:wrap;gap:12px 18px}.footer-service-strip>span{width:100%;margin:0}.footer-bottom{align-items:flex-start;flex-direction:column;gap:7px}}
+
+
+/* Compact company footer and mobile-only back-to-top control */
+.site-footer{padding:30px 0 16px;background:#08152c;color:#eaf0f7}
+.footer-compact{display:grid;grid-template-columns:minmax(180px, .75fr) minmax(300px, 1.4fr) auto;align-items:center;gap:28px;padding-bottom:24px}
+.footer-compact .footer-brand img{display:block;width:180px;height:auto;max-height:105px;object-fit:contain;object-position:left center}
+.footer-company-info{display:flex;flex-direction:column;gap:5px;color:#c2ccda;font-size:12px;line-height:1.7}
+.footer-company-info strong{display:inline-block;min-width:64px;color:#8fa3bf;font-weight:500}
+.footer-company-info a:hover{color:#fff;text-decoration:underline}
+.footer-kakao-actions{display:flex;flex-direction:column;gap:9px;min-width:150px}
+.kakao-button{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 14px;border-radius:4px;font-size:12px;font-weight:700;transition:transform .2s,opacity .2s}
+.kakao-button:hover{transform:translateY(-2px);opacity:.92}
+.kakao-friend{background:#FEE500;color:#191919}
+.kakao-chat{background:#fff;color:#152644;border:1px solid #d9e0e9}
+.footer-bottom-compact{border-top:1px solid rgba(255,255,255,.12);padding-top:14px;font-size:10px;color:#788ba6}
+.mobile-back-to-top{display:none}
+@media(max-width:900px){.footer-compact{grid-template-columns:1fr 1.4fr;gap:22px}.footer-kakao-actions{grid-column:1/-1;flex-direction:row}.kakao-button{flex:1}}
+@media(max-width:700px){.footer-compact{grid-template-columns:1fr;gap:18px;padding-bottom:20px}.footer-compact .footer-brand img{width:160px;max-height:95px}.footer-company-info{font-size:11px;gap:4px}.footer-company-info strong{min-width:60px}.footer-kakao-actions{grid-column:auto;flex-direction:column;gap:8px}.kakao-button{width:100%;min-height:42px}.footer-bottom-compact{font-size:9px}.mobile-back-to-top{position:fixed;right:16px;bottom:18px;z-index:60;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;width:48px;height:48px;border:1px solid rgba(255,255,255,.25);border-radius:50%;background:rgba(11,26,53,.92);color:#fff;font-size:23px;line-height:1;box-shadow:0 5px 18px rgba(0,0,0,.22);cursor:pointer}.mobile-back-to-top span{font-size:9px;letter-spacing:.04em}.mobile-back-to-top:active{transform:translateY(1px)}}
+
+
+/* Transparent-background logo set (v5): header uses horizontal lockup, dark areas use the white-text variant. */
+.brand-original img{width:auto;height:46px;max-height:none;max-width:none;object-fit:contain}
+.footer-compact .footer-brand img{width:170px;height:auto;max-height:none}
+@media(max-width:900px){.footer-brand-column .brand-original img{width:auto}}
+@media(max-width:700px){.brand-original img{width:auto;height:38px;max-height:none}.hero-logo-card img{max-width:280px}.footer-compact .footer-brand img{width:150px;height:auto;max-height:none}}
+
+/* Hero: brand background artwork replaces the large logo card */
+.hero{background:linear-gradient(90deg,rgba(7,20,43,.55),rgba(7,20,43,0) 60%),url("assets/hero-bg.jpg") center right/cover no-repeat,#08152c}
+.hero-grid{grid-template-columns:minmax(0,640px)}
+@media(max-width:900px){.hero{background:linear-gradient(180deg,rgba(7,20,43,.35),rgba(7,20,43,.15)),url("assets/hero-bg-sm.jpg") 72% center/cover no-repeat,#08152c}}
+
+/* ===== About page ===== */
+.primary-nav a[aria-current="page"]{color:var(--cyan)}
+.page-hero{color:#fff;padding:92px 0 76px;background:linear-gradient(90deg,rgba(7,20,43,.62),rgba(7,20,43,.1) 70%),url("assets/hero-bg.jpg") center right/cover no-repeat,#08152c;position:relative}
+.page-hero h1{font-size:clamp(30px,4vw,48px);line-height:1.35;letter-spacing:-.05em;margin:0 0 18px;font-weight:800}
+.page-hero h1 span{color:var(--gold-light)}
+.page-lead{font-size:15px;line-height:1.9;color:#c9d5e6;max-width:520px;margin:0}
+.subnav{position:sticky;top:82px;z-index:40;background:#fff;border-bottom:1px solid var(--line)}
+.subnav-list{display:flex;gap:28px;overflow-x:auto;white-space:nowrap;padding-block:14px;font-size:13px;font-weight:600;color:#44536b;scrollbar-width:none}
+.subnav-list::-webkit-scrollbar{display:none}
+.subnav-list a:hover{color:var(--cyan)}
+html{scroll-padding-top:140px}
+.ab-grid{display:grid;grid-template-columns:260px 1fr;gap:56px;align-items:start}
+.ab-side h2{font-size:30px}
+.ab-body p{font-size:15px;line-height:2.05;color:#44536b;margin:0 0 16px;max-width:62ch}
+.ab-body .ab-lead{font-size:clamp(22px,2.6vw,28px);font-weight:800;line-height:1.5;letter-spacing:-.04em;color:var(--navy);margin-bottom:24px}
+.ab-sign{display:flex;align-items:baseline;gap:14px;margin-top:30px!important;padding-top:20px;border-top:1px solid var(--line);max-width:300px!important}
+.ab-sign span{font-size:12px;color:var(--muted)}.ab-sign strong{font-size:20px;letter-spacing:.35em;color:var(--navy)}
+.name-eq{display:grid;grid-template-columns:1fr auto 1fr auto 1.15fr;gap:18px;align-items:stretch}
+.name-op{align-self:center;font-size:30px;font-weight:300;color:var(--gold)}
+.name-card{background:#fff;border:1px solid #e7ebf1;padding:30px 24px;text-align:center;min-width:0}
+.name-result{border-color:rgba(212,175,55,.55);background:linear-gradient(180deg,#fffdf6,#fff)}
+.name-word{font-size:clamp(26px,3vw,36px);font-weight:800;letter-spacing:.08em;color:#1B4F80;margin:0 0 4px}
+.name-word.small{letter-spacing:.02em;color:var(--navy)}
+.name-word .gold{color:#C9A12E}.name-word .cyan{color:#13B5DB}
+.name-ko{font-size:17px;font-weight:700;margin:0 0 12px;color:var(--navy)}
+.name-mean{font-size:13px;line-height:1.8;color:#657188;margin:0}
+.ab-vision{padding-block:86px}
+.ab-vision .section-kicker{margin-bottom:30px}
+.vision-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid rgba(255,255,255,.14)}
+.vision-grid article{padding:28px 28px 8px 0}
+.vision-grid article+article{padding-left:28px;border-left:1px solid rgba(255,255,255,.14)}
+.vision-grid h3{font-size:13px;letter-spacing:.2em;color:var(--gold);margin:0 0 14px;font-weight:700}
+.vision-grid p{font-size:clamp(16px,1.7vw,19px);line-height:1.8;font-weight:600;margin:0;letter-spacing:-.02em}
+.vision-grid small{display:block;margin-top:10px;font-size:11px;color:#8fa3bf;letter-spacing:.04em}
+.ab-value-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.ab-value-grid article{padding:26px 22px;border:1px solid #e7ebf1;background:#fff}
+.ab-vicon{display:block;font-size:30px;margin-bottom:14px}.ab-vicon.gold{color:#B28B20}.ab-vicon.cyan{color:#0089AA}
+.ab-value-grid h3{font-size:18px;margin:0 0 8px}
+.ab-value-grid p{font-size:13px;line-height:1.9;color:#657188;margin:0}
+.ci-grid{display:grid;grid-template-columns:300px 1fr;gap:52px;align-items:center}
+.ci-symbol{background:var(--deep);padding:34px;display:grid;place-items:center;aspect-ratio:1}
+.ci-symbol img{width:100%;max-width:220px;height:auto}
+.ci-text h3{font-size:17px;margin:0 0 8px;color:var(--navy)}
+.ci-text p{font-size:14px;line-height:2;color:#586780;margin:0 0 22px;max-width:62ch}
+.ci-text b{color:var(--navy)}
+.ci-words{display:flex;gap:28px;flex-wrap:wrap;margin:0}
+.ci-words div{border-top:2px solid var(--gold);padding-top:10px;min-width:150px}
+.ci-words dt{font-weight:800;letter-spacing:.1em;font-size:15px;color:#1B4F80}.ci-words dd{margin:2px 0 0;font-size:13px;color:#657188}
+.swatch-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.swatch-grid article{min-width:0}
+.swatch{display:block;height:92px;border-radius:3px}.swatch.ivory{border:1px solid #dfe5ee}
+.swatch-grid h3{font-size:15px;margin:14px 0 2px}
+.hex{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:#7a869a;margin:0 0 4px}
+.swatch-grid p:last-child{font-size:13px;color:#44536b;margin:0}
+.ratio{display:flex;height:46px;margin-top:34px;border-radius:3px;overflow:hidden;font-size:12px;font-weight:700;color:#fff}
+.ratio span{display:flex;align-items:center;padding-left:12px;min-width:0;white-space:nowrap;overflow:hidden}
+.ratio-note{font-size:13px;color:#657188;margin:12px 0 0}
+.overview{margin:0;border-top:2px solid var(--navy)}
+.overview div{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:15px 4px;border-bottom:1px solid var(--line)}
+.overview dt{font-size:13px;font-weight:700;color:var(--muted)}.overview dd{margin:0;font-size:14px;line-height:1.7}
+.overview a{border-bottom:1px solid var(--gold)}
+.partner-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;border-top:1px solid var(--line);padding-top:30px}
+.partner-grid h3{font-size:16px;margin:0 0 12px}
+.partner-grid ul,.partner-grid ol{margin:0;padding-left:20px;font-size:14px;line-height:2.1;color:#44536b}
+.partner-grid ul{list-style:none;padding:0}
+.partner-grid ul li:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--gold);margin-right:10px}
+@media(max-width:900px){.ab-grid{grid-template-columns:1fr;gap:20px}.name-eq{grid-template-columns:1fr;gap:10px}.name-op{justify-self:center;font-size:24px;line-height:1}.vision-grid{grid-template-columns:1fr}.vision-grid article,.vision-grid article+article{padding:22px 0;border-left:0;border-bottom:1px solid rgba(255,255,255,.14)}.ab-value-grid{grid-template-columns:1fr 1fr}.ci-grid{grid-template-columns:1fr;gap:28px}.ci-symbol{aspect-ratio:auto;max-width:300px}.swatch-grid{grid-template-columns:1fr 1fr}.partner-grid{grid-template-columns:1fr}}
+@media(max-width:700px){.subnav{top:70px}.page-hero{padding:64px 0 48px}.overview div{grid-template-columns:96px 1fr;gap:10px}.ab-value-grid{grid-template-columns:1fr}.ratio span{font-size:10px;padding-left:6px}}
+
+/* Kakao buttons moved from footer into the contact panel (above the email button) */
+.footer-compact{grid-template-columns:minmax(180px,.75fr) minmax(300px,1.6fr)}
+.contact-actions{min-width:300px}
+.contact-kakao{display:flex;gap:9px;margin-bottom:12px}
+.contact-kakao .kakao-button{flex:1;white-space:nowrap;padding:13px 14px}
+.contact-kakao .kakao-chat{background:#fff}
+@media(max-width:900px){.footer-compact{grid-template-columns:1fr 1.4fr}}
+@media(max-width:700px){.footer-compact{grid-template-columns:1fr}.contact-actions{min-width:0;width:100%}.contact-kakao{flex-direction:column}.contact-actions>.button{width:100%}}
+
+/* Signature next to CEO name */
+.ab-body .ab-sign{max-width:none!important;align-items:center;flex-wrap:wrap;gap:6px 14px}
+.ab-sign img{height:60px;width:auto;margin-left:4px}
+
+.ab-sign img{height:92px;width:auto;margin-left:10px}
+@media(max-width:700px){.ab-sign img{height:76px}}
+
+.ab-sign img{height:124px}
+@media(max-width:700px){.ab-sign img{height:100px}}
+
+/* Contact buttons: one size, stacked, Kakao brand yellow */
+.contact-actions{display:flex;flex-direction:column;gap:10px;width:270px;min-width:0}
+.contact-kakao{display:contents}
+.contact-actions .kakao-button,.contact-actions>.button{box-sizing:border-box;width:100%;height:50px;min-height:50px;padding:0 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-radius:4px;font-size:13px;font-weight:700;margin:0;white-space:nowrap}
+.contact-actions .kakao-friend,.contact-actions .kakao-chat{background:#FEE500;color:#191919;border:0}
+@media(max-width:700px){.contact-actions{width:100%}}
+/* Signature: half size, tight to the name */
+.ab-body .ab-sign{gap:6px}
+.ab-sign strong{margin-right:-.35em}
+.ab-sign img{height:62px;margin-left:2px}
+@media(max-width:700px){.ab-sign img{height:50px}}
+
+/* CI panel shows symbol + logotype together */
+.ci-grid{grid-template-columns:340px 1fr}
+.ci-symbol{aspect-ratio:auto;padding:38px 26px}
+.ci-symbol img{max-width:290px}
+@media(max-width:900px){.ci-grid{grid-template-columns:1fr}.ci-symbol{max-width:340px}}
+
+.intro-copy p:last-child{margin-bottom:0}

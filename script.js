@@ -13,3 +13,10 @@ if (menuButton && nav) {
   }));
 }
 document.getElementById('year').textContent = new Date().getFullYear();
+
+const backToTopButton = document.querySelector('.mobile-back-to-top');
+if (backToTopButton) {
+  backToTopButton.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
