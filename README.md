@@ -1,4 +1,4 @@
-# 해피누리 홈페이지 (v15 · 회사소개 페이지 추가)
+# 해피누리 홈페이지 (v19 · 회사소개 페이지 추가)
 
 정적 반응형 홈페이지입니다. GitHub Pages에 배포할 수 있습니다.
 
@@ -14,7 +14,8 @@
 - `assets/happy-nuri-symbol.png`: 심벌만 투명 배경
 - `assets/favicon.png`, `favicon-48.png`, `apple-touch-icon.png`: 심벌 기반 아이콘 (apple-touch-icon만 네이비 배경)
 - `assets/happy-nuri-logo-original.png`, `-symbol-original.png`, `-reference.jpg`: 투명 처리 전 원본 (사이트에서는 사용하지 않음, 보관용)
-- `assets/hero-bg.jpg` / `hero-bg-sm.jpg`: 히어로 배경 이미지 (PC 2400×1200 / 모바일 1200×600, 로고의 금색·청록 리본과 연결망 모티브)
+- `assets/hero-bg.jpg` / `hero-bg-sm.jpg`: 히어로 배경 이미지 (PC 2400×1200 / 모바일 1200×600, 사람 옆모습 + AI 칩 두뇌 + 사방으로 뻗는 지능망)
+- `assets/page-bg.jpg`: 회사소개 페이지 상단 배경 (금색·청록 리본과 연결망)
 - `assets/signature.png`: 대표 인사말 옆 자필 서명 (투명 PNG, 같은 이름으로 교체 가능)
 - `assets/favicon.svg`: 구버전 CSS 모사 아이콘 (사용하지 않음)
 

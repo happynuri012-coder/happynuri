@@ -49,7 +49,7 @@
 
 /* ===== About page ===== */
 .primary-nav a[aria-current="page"]{color:var(--cyan)}
-.page-hero{color:#fff;padding:92px 0 76px;background:linear-gradient(90deg,rgba(7,20,43,.62),rgba(7,20,43,.1) 70%),url("assets/hero-bg.jpg") center right/cover no-repeat,#08152c;position:relative}
+.page-hero{color:#fff;padding:92px 0 76px;background:linear-gradient(90deg,rgba(7,20,43,.62),rgba(7,20,43,.1) 70%),url("assets/page-bg.jpg") center right/cover no-repeat,#08152c;position:relative}
 .page-hero h1{font-size:clamp(30px,4vw,48px);line-height:1.35;letter-spacing:-.05em;margin:0 0 18px;font-weight:800}
 .page-hero h1 span{color:var(--gold-light)}
 .page-lead{font-size:15px;line-height:1.9;color:#c9d5e6;max-width:520px;margin:0}
@@ -154,3 +154,13 @@ html{scroll-padding-top:140px}
 @media(max-width:900px){.ci-grid{grid-template-columns:1fr}.ci-symbol{max-width:340px}}
 
 .intro-copy p:last-child{margin-bottom:0}
+
+/* Korean text wraps at word (어절) boundaries; very long strings still break instead of overflowing */
+body{word-break:keep-all;overflow-wrap:break-word}
+
+/* Hero artwork (humanoid profile + AI chip): on small screens it sits at the bottom so text stays readable */
+@media(max-width:700px){.hero{padding-bottom:250px;background:linear-gradient(180deg,#08152c 0%,rgba(8,21,44,.96) 38%,rgba(8,21,44,0) 72%),url("assets/hero-bg-sm.jpg") -430px 100%/900px auto no-repeat,#08152c}}
+
+/* Header logo lockup: larger HAPPY NURI wordmark */
+.brand-original img{height:48px}
+@media(max-width:700px){.brand-original img{height:40px}}
