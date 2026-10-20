@@ -1,4 +1,4 @@
-# 해피누리 홈페이지 (v19 · 회사소개 페이지 추가)
+# 해피누리 홈페이지 (v20 · 은은한 모션 + 타이포·골드 라인)
 
 정적 반응형 홈페이지입니다. GitHub Pages에 배포할 수 있습니다.
 
@@ -6,7 +6,7 @@
 - `index.html`: 메인 페이지 구조 및 콘텐츠
 - `about.html`: 회사 소개 페이지 (대표 인사말, 이름의 뜻, 미션·비전, 핵심 가치, CI·색상 의미, 회사 개요, 제휴 안내)
 - `styles.css`: 반응형 디자인과 스타일
-- `script.js`: 모바일 메뉴 및 연도 표시
+- `script.js`: 모바일 메뉴, 연도 표시, 스크롤 등장 효과, 헤더 그림자, 히어로 AI 칩 펄스 위치 계산
 - `assets/happy-nuri-logo.png`: 투명 배경 세로형 로고 (밝은 배경용, 원본 색상)
 - `assets/happy-nuri-logo-light.png`: 투명 배경 세로형 로고, 글자만 흰색 (어두운 배경용: 히어로·푸터)
 - `assets/happy-nuri-logo-horizontal.png` / `-horizontal-light.png`: 심벌+HAPPY NURI 가로형 (헤더 사용)
@@ -31,3 +31,4 @@
 - 어두운 배경에서는 반드시 `-light` 버전을 사용하세요. 기본 버전의 네이비 글자는 어두운 배경에서 보이지 않습니다.
 
 - `about.html`의 대표 인사말은 초안입니다. 주소는 사업자등록증의 사업장 소재지로 통일했습니다.
+- `assets/fonts/`: 영문 라벨용 Montserrat(500/600/700) 자체 호스팅 폰트. 모션은 `prefers-reduced-motion` 설정 시 자동으로 꺼집니다.
