@@ -53,3 +53,6 @@ if (backToTopButton) {
   }
   place();window.addEventListener('resize',place);window.addEventListener('load',place);
 })();
+
+/* Show the back-to-top button only after scrolling down */
+(function(){const b=document.querySelector('.mobile-back-to-top');if(!b)return;const f=()=>b.classList.toggle('show',window.scrollY>400);f();window.addEventListener('scroll',f,{passive:true});})();

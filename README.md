@@ -1,4 +1,4 @@
-# 해피누리 홈페이지 (v20 · 은은한 모션 + 타이포·골드 라인)
+# 해피누리 홈페이지 (v22 · 서비스에 해피로또 로고 적용)
 
 정적 반응형 홈페이지입니다. GitHub Pages에 배포할 수 있습니다.
 
@@ -17,6 +17,7 @@
 - `assets/hero-bg.jpg` / `hero-bg-sm.jpg`: 히어로 배경 이미지 (PC 2400×1200 / 모바일 1200×600, 사람 옆모습 + AI 칩 두뇌 + 사방으로 뻗는 지능망)
 - `assets/page-bg.jpg`: 회사소개 페이지 상단 배경 (금색·청록 리본과 연결망)
 - `assets/signature.png`: 대표 인사말 옆 자필 서명 (투명 PNG, 같은 이름으로 교체 가능)
+- `assets/happylotto-logo.png`: 서비스 목록의 해피로또 로고 (투명 PNG)
 - `assets/favicon.svg`: 구버전 CSS 모사 아이콘 (사용하지 않음)
 
 ## GitHub Pages 배포/업데이트
